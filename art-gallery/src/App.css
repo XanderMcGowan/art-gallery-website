@@ -20,9 +20,7 @@ h1 {
 
 .main-container {
   border: 1px solid blue;
-  /* width: 100vw; */
-  /* height: 100vh; */
-  height: 2560px;
+  height: 177vw;
 }
 
 .sct-black{
@@ -38,6 +36,7 @@ h1 {
   height: 100%;
   background-image: url(./assets/desktop/image-hero.jpg);
   background-position: center;
+  background-size: cover;
 }
 
 .sct-white{
