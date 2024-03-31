@@ -3,15 +3,57 @@
   padding: 0;
 }
 
-.button-location{
-  width: 18%;
-  height: 3%;
-  background-color: pink;
-  z-index: 1000;
-  position: absolute;
-  left: 64%;
-  top: 16%;
+.button {
+  display: flex;
+  position: relative;
+  right: 23%;
+  top: 32%;
+  height: 9%;
+  width: 92%;
+  cursor:pointer;
 }
+
+.button-el-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 78%;
+  background-color: #151515;
+  color: #ffffff;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 1.6vw;
+  font-weight: 600;
+  letter-spacing: 0.2vw;
+  text-transform: uppercase;
+  transition: 0.4s ease-in-out;
+}
+
+.button-el-2 {
+  background-color: #d5966c;
+  height: 100%;
+  width: 30%;
+  transition: 0.4s ease-in-out;
+
+}
+
+.button-icon {
+  height: 100%;
+  width: 100%;
+  background-image: url(./assets/icon-arrow-right.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.button:hover .button-el-1{
+  background-color: #d5966c
+}
+
+.button:hover .button-el-2{
+  background-color: #151515;
+}
+
+
 
 .fb-sub-1 {
   width: 57%;
@@ -39,16 +81,13 @@
 }
 .flex-top {
   display: flex;
-  
   height: 35%;
-  background-color: blue;
   margin-bottom: 2.5%;
 }
 
 .flex-bottom {
   display: flex;
   height: 62.5%;
-  /* background-color: red; */
 }
 
 
@@ -73,34 +112,28 @@ footer {
 }
  
 
-h1 {
-  font-style: italic;
-  color: blue;
-}
-
 .main-container {
-  border: 1px solid blue;
   height: 177vw;
 }
 
 .sct-black{
-  border: 1px solid purple;
+  position: relative;
+
   width: 35%;
   height: 100%;
   background-color: #151515;
 }
 
 .sct-photo{
-  border: 1px solid purple;
   width: 43%;
   height: 100%;
   background-image: url(./assets/desktop/image-hero.jpg);
+  background-color: #ffffff;
   background-position: center;
   background-size: cover;
 }
 
 .sct-white{
-  border: 1px solid purple;
   width: 22%;
   height: 100%;
 
@@ -111,17 +144,48 @@ h1 {
   flex-direction: row;
   width: 88%;
   height: 31%;
-  border: 1px dotted red;
   margin-bottom: 13.6vw;
 }
 
 .sub-container-bottom{
-  border: 1px dotted red;
   height: 45%;
   width: 80%;
   margin-left: 10%;
   margin-bottom: 11.8vw;
 
 }
+
+.text-title
+ {
+  width: 115%;
+  position: relative;
+  z-index: 100;
+  top: 19.7%;
+  left: 29%;
+  color: #ffffff;
+  mix-blend-mode:  difference;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 7.1vw;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.text-sct-upper {
+  height: 20%;
+  width: 125%;
+  position: relative;
+  top: 24%;
+  right: 23%;
+  color: #444444;
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 1.5vw;
+  line-height: 160%;
+}
+
+
+
+
 
 
