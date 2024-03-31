@@ -325,6 +325,85 @@ cursor: pointer;
   height: 750vw;
 }
 
+.container-bottom{
+  width: 91%;
+  height: 57%;
+  margin-left: 4.5%;
+  margin-bottom: 37.5%;
+}
+.container-bottom-photo1 {
+  width: 100%;
+  height: 20%;
+  background-image: url('./assets/mobile/image-grid-1.jpg');
+  background-size: cover;
+  margin-bottom: 4%;
+}
+
+.container-bottom-photo2 {
+  width: 100%;
+  height: 30%;
+  background-image: url('./assets/mobile/image-grid-2.jpg');
+  background-size: cover;
+  margin-bottom: 4%;
+}
+
+.container-bottom-photo3 {
+  width: 100%;
+  height: 12.5%;
+  background-image: url('./assets/mobile/image-grid-3.jpg');
+  background-size: cover;
+  margin-bottom: 4%;
+}
+
+.container-bottom-text-box {
+  width: 100%;
+  height: 18%;
+  background-color: #151515;
+  padding-top: 15%;
+}
+
+.container-bottom-title1 {
+  color: #151515;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 14vw;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-bottom: 4%;
+
+}
+
+.container-bottom-copy1{
+  color: #444444;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 5vw;
+  line-height: 160%;
+  margin-bottom: 4%;
+}
+
+.container-bottom-title2 {
+  color: #ffffff;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 14vw;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-left: 6%;
+  margin-bottom: 1%;
+
+}
+
+.container-bottom-copy2{
+  color: #ffffff;
+  font-family: "Outfit";
+  font-weight: 200;
+  font-size: 5vw;
+  margin-left: 6%;
+  margin-top: 10%;
+  line-height: 160%;
+}
+
 .container-top{
   width: 100%;
   height: 22%;
@@ -364,16 +443,60 @@ cursor: pointer;
   margin-bottom: 9%;
 }
 
-.container-bottom{
-  width: 91%;
-  height: 57%;
-  margin-left: 4.5%;
-  margin-bottom: 37.5%;
-  background-color: #d5966c;
-}
 
 .footer{
   height: 11%;
   width: 100%;
+  padding: 12%;
   background-color: #151515;
 }
+
+.footer-title {
+  color: #ffffff;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 6vw;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  margin-bottom: 3%;
+}
+
+.footer-copy {
+  color: #ffffff;
+  font-family: "Outfit";
+  font-weight: 200;
+  font-size: 4.2vw;
+  width: 82%;
+  line-height: 160%;
+  margin-bottom: 3%;
+}
+
+.footer-icons{
+  justify-content: space-between;
+  width: 35%;
+  margin-left: 0%;
+
+
+}
+
+.icon-fb {
+  height: 100%;
+  width: 20%;
+  background-image: url(./assets/icon-facebook.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+  
+  .icon-ig {
+  background-image: url(./assets/icon-instagram.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+  
+  .icon-tw {
+    height: 100%;
+  width: 20%;
+  background-image: url(./assets/icon-twitter.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
