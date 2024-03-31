@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+/* Home Styles */
+
 .button {
   display: flex;
   position: relative;
@@ -156,7 +158,6 @@ cursor: pointer;
 
 .sct-black {
   position: relative;
-
   width: 35%;
   height: 100%;
   background-color: #151515;
@@ -276,8 +277,103 @@ cursor: pointer;
 .text-title-footer {
   color: #ffffff;
   font-family: "Big Shoulders Display", sans-serif;
-  font-size: 2vw;
+  font-size: 1.9vw;
+  font-weight: 800;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.mobile-container{
+  display: none;
+}
+
+@media (width <= 600px) {
+
+  .main-container{
+    display: none;
+  }
+
+  .mobile-container{
+    display: block;
+  }
+
+}
+
+
+/* Mobile Styles */
+
+.button {
+  position: relative;
+  right: 0%;
+  top: 0%;
+  height: 9%;
+  width: 70%;
+  margin-left: 4.5%;
+}
+
+.button-el-1 {
+  font-size: 6vw;
+}
+
+.button-el-2 {
+  width: 25%;
+}
+
+
+.mobile-container{
+  width: 100vw;
+  height: 750vw;
+}
+
+.container-top{
+  width: 100%;
+  height: 22%;
+  margin-bottom: 37.5%;
+}
+
+.container-top-photo{
+  height: 38%;
+  width: 100%;
+  background-image: url('./assets/mobile/image-hero.jpg');
+  background-size: cover;
+  margin-bottom: 9%;
+}
+
+.container-top-title{
+  width: 91%;
+  height: 17%;
+  margin-left: 4.5%;
+  color: #151515;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 15.5vw;
   font-weight: 900;
   font-style: normal;
   text-transform: uppercase;
+  margin-bottom: 9%;
+}
+
+.container-top-copy{
+  height: 18;
+  width: 91%;
+  margin-left: 4.5%;
+  color: #444444;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 5vw;
+  line-height: 160%;
+  margin-bottom: 9%;
+}
+
+.container-bottom{
+  width: 91%;
+  height: 57%;
+  margin-left: 4.5%;
+  margin-bottom: 37.5%;
+  background-color: #d5966c;
+}
+
+.footer{
+  height: 11%;
+  width: 100%;
+  background-color: #151515;
 }
