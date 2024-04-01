@@ -1,0 +1,97 @@
+.fb-sub-1 {
+    width: 57%;
+    margin-right: 2.5%;
+    background-image: url(../assets/desktop/image-grid-2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .fb-sub-2 {
+    width: 40.5%;
+  }
+  
+  .fb-sub-2-photo1 {
+    height: 44%;
+    margin-bottom: 4%;
+    background-image: url(../assets/desktop/image-grid-3@2x.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .fb-sub-2-photo2 {
+    background-color: #151515;
+    height: 53.5%;
+  }
+  
+  
+  .flex-top {
+    display: flex;
+    height: 35%;
+    margin-bottom: 2.5%;
+  }
+  
+  .flex-bottom {
+    display: flex;
+    height: 62.5%;
+  }
+  
+  
+  .ft-text {
+    height: 100%;
+    width: 43%;
+    background-color: #ffffff;
+  }
+  
+  .ft-photo {
+    width: 57%;
+    background-image: url(../assets/desktop/image-grid-1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  
+  
+  .sub-container-bottom {
+    height: 45%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 11.8vw;
+  }
+  
+  .text-copy-bottom {
+    width: 65%;
+    margin-top: 10%;
+    color: #444444;
+    font-weight: 300;
+    font-size: 1.5vw;
+    line-height: 160%;
+  }
+  
+  
+  .text-fb-sub-2-copy {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 1.5vw;
+    line-height: 160%;
+  
+  }
+  
+  .text-fb-sub-2-title {
+    width: 70%;
+    padding-top: 15%;
+    padding-left: 10%;
+    color: #ffffff;
+    font-size: 4vw;
+    font-weight: 900;
+  }
+  
+  
+  .text-title-bottom {
+    width: 70%;
+    margin-top: 10%;
+    font-size: 4vw;
+    font-weight: 900;
+  }

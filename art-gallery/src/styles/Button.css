@@ -1,0 +1,48 @@
+.button {
+    display: flex;
+    position: relative;
+    right: 23%;
+    top: 32%;
+    height: 9%;
+    width: 92%;
+    cursor: pointer;
+  }
+  
+  .button-el-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 78%;
+    background-color: #151515;
+    color: #ffffff;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 1.6vw;
+    font-weight: 600;
+    letter-spacing: 0.2vw;
+    text-transform: uppercase;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .button-el-2 {
+    background-color: #d5966c;
+    height: 100%;
+    width: 30%;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .button-icon {
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/icon-arrow-right.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .button:hover .button-el-1 {
+    background-color: #d5966c;
+  }
+  
+  .button:hover .button-el-2 {
+    background-color: #151515;
+  }

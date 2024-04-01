@@ -1,6 +1,7 @@
 import TopContainer from "./TopContainer";
 import BottomContainer from "./BottomContainer";
 import Footer from "./Footer";
+import '../styles/Home.css'
 
 const Home = () => {
   return (

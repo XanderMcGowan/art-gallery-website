@@ -1,4 +1,5 @@
 import Text from '../assets/text.json'
+import '../styles/BottomContainer.css'
 
 const BottomContainer = () => {
   return (

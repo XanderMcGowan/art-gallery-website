@@ -1,4 +1,5 @@
 import Text from '../assets/text.json'
+import '../styles/Footer.css'
 
 const Footer = () => {
   return (

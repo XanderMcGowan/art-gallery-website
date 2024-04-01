@@ -1,5 +1,6 @@
 import Button from "./Button";
 import Text from '../assets/text.json'
+import '../styles/Mobile.css'
 
 const Mobile = () => {
   return (
