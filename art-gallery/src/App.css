@@ -3,11 +3,23 @@
   padding: 0;
 }
 
-/* Home Styles */
-
+/* Global Styles ----------------------------------------------------------*/
 h1, p {
   text-shadow: 0px 6px 10px rgba(21,21,21,0.25);
 }
+
+h1{
+  font-family: "Big Shoulders Display", sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Outfit";
+}
+
+/* Button Styles --------------------------------------------------*/
+
 
 .button {
   display: flex;
@@ -57,6 +69,8 @@ h1, p {
 .button:hover .button-el-2 {
   background-color: #151515;
 }
+
+/* Home Styles -------------------------------------------- */
 
 .fb-sub-1 {
   width: 57%;
@@ -129,8 +143,8 @@ footer {
   background-size: cover;
 }
 
-.icon-fb {
-height: 100%;
+.icon {
+  height: 100%;
 width: 20%;
 background-image: url(./assets/icon-facebook.svg);
 background-position: center;
@@ -138,22 +152,16 @@ background-size: cover;
 cursor: pointer;
 }
 
-.icon-ig {
-  height: 100%;
-width: 20%;
-background-image: url(./assets/icon-instagram.svg);
-background-position: center;
-background-size: cover;
-cursor: pointer;
+#icon-fb {
+background-image: url(./assets/icon-facebook.svg);
 }
 
-.icon-tw {
-  height: 100%;
-width: 20%;
+#icon-ig {
+background-image: url(./assets/icon-instagram.svg);
+}
+
+#icon-tw {
 background-image: url(./assets/icon-twitter.svg);
-background-position: center;
-background-size: cover;
-cursor: pointer;
 }
 
 .main-container {
@@ -200,7 +208,6 @@ cursor: pointer;
   width: 65%;
   margin-top: 10%;
   color: #444444;
-  font-family: "Outfit";
   font-weight: 300;
   font-size: 1.5vw;
   line-height: 160%;
@@ -211,7 +218,6 @@ cursor: pointer;
   margin-left: 14%;
   width: 32%;
   color: #ffffff;
-  font-family: "Outfit";
   font-weight: 200;
   font-size: 1vw;
   line-height: 160%;
@@ -224,7 +230,6 @@ cursor: pointer;
   top: 24%;
   right: 23%;
   color: #444444;
-  font-family: "Outfit";
   font-weight: 300;
   font-size: 1.5vw;
   line-height: 160%;
@@ -235,7 +240,6 @@ cursor: pointer;
   margin-left: 10%;
   margin-top: 10%;
   color: #ffffff;
-  font-family: "Outfit";
   font-weight: 200;
   font-size: 1.5vw;
   line-height: 160%;
@@ -247,11 +251,8 @@ cursor: pointer;
   padding-top: 15%;
   padding-left: 10%;
   color: #ffffff;
-  font-family: "Big Shoulders Display", sans-serif;
   font-size: 4vw;
   font-weight: 900;
-  font-style: normal;
-  text-transform: uppercase;
 }
 
 .text-title {
@@ -262,30 +263,21 @@ cursor: pointer;
   left: 29%;
   color: #ffffff;
   mix-blend-mode: difference;
-  font-family: "Big Shoulders Display", sans-serif;
   font-size: 7.1vw;
   font-weight: 900;
-  font-style: normal;
-  text-transform: uppercase;
 }
 
 .text-title-bottom {
   width: 70%;
   margin-top: 10%;
-  font-family: "Big Shoulders Display", sans-serif;
   font-size: 4vw;
   font-weight: 900;
-  font-style: normal;
-  text-transform: uppercase;
 }
 
 .text-title-footer {
   color: #ffffff;
-  font-family: "Big Shoulders Display", sans-serif;
   font-size: 1.9vw;
   font-weight: 800;
-  font-style: normal;
-  text-transform: uppercase;
 }
 
 .mobile-container{
@@ -326,25 +318,7 @@ cursor: pointer;
   
   
   }
-  
-  .icon-fb {
-    height: 100%;
-    width: 20%;
-    background-image: url(./assets/icon-facebook.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    }
-    
-    .icon-ig {
-    background-image: url(./assets/icon-instagram.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    }
-    
-    .icon-tw {
-      height: 100%;
-    width: 20%;
-    background-image: url(./assets/icon-twitter.svg);
+    .icon {
     background-size: contain;
     background-repeat: no-repeat;
     }
@@ -399,18 +373,14 @@ cursor: pointer;
 
 .container-bottom-title1 {
   color: #151515;
-  font-family: "Big Shoulders Display", sans-serif;
   font-size: 14vw;
   font-weight: 900;
-  font-style: normal;
-  text-transform: uppercase;
   margin-bottom: 4%;
 
 }
 
 .container-bottom-copy1{
   color: #444444;
-  font-family: "Outfit";
   font-weight: 300;
   font-size: 5vw;
   line-height: 160%;
@@ -419,11 +389,8 @@ cursor: pointer;
 
 .container-bottom-title2 {
   color: #ffffff;
-  font-family: "Big Shoulders Display", sans-serif;
   font-size: 14vw;
   font-weight: 900;
-  font-style: normal;
-  text-transform: uppercase;
   margin-left: 6%;
   margin-bottom: 1%;
 
@@ -431,7 +398,6 @@ cursor: pointer;
 
 .container-bottom-copy2{
   color: #ffffff;
-  font-family: "Outfit";
   font-weight: 200;
   font-size: 5vw;
   margin-left: 6%;
@@ -458,11 +424,8 @@ cursor: pointer;
   height: 17%;
   margin-left: 4.5%;
   color: #151515;
-  font-family: "Big Shoulders Display", sans-serif;
   font-size: 15.5vw;
   font-weight: 900;
-  font-style: normal;
-  text-transform: uppercase;
   margin-bottom: 9%;
 }
 
@@ -471,7 +434,6 @@ cursor: pointer;
   width: 91%;
   margin-left: 4.5%;
   color: #444444;
-  font-family: "Outfit";
   font-weight: 300;
   font-size: 5vw;
   line-height: 160%;
@@ -488,18 +450,14 @@ cursor: pointer;
 
 .footer-title {
   color: #ffffff;
-  font-family: "Big Shoulders Display", sans-serif;
   font-size: 6vw;
   font-weight: 900;
-  font-style: normal;
-  text-transform: uppercase;
   margin-bottom: 3%;
   margin-left: 12%;
 }
 
 .footer-copy {
   color: #ffffff;
-  font-family: "Outfit";
   font-weight: 200;
   font-size: 4.2vw;
   width: 82%;

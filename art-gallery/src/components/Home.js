@@ -57,9 +57,9 @@ const Home = () => {
   from 8am to 9pm. Find us at 99 King Street, Newport, USA.
             </p>
             <div className="footer-icons">
-                <div className="icon-fb"></div>
-                <div className="icon-ig"></div>
-                <div className="icon-tw"></div>
+                <div className="icon" id="icon-fb"></div>
+                <div className="icon" id="icon-ig"></div>
+                <div className="icon" id="icon-tw"></div>
             </div>
         </div>
       </footer>
