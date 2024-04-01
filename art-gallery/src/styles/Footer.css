@@ -3,7 +3,7 @@ footer {
     height: 9.7%;
     background-color: #151515;
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
   }
   
@@ -11,13 +11,13 @@ footer {
   
   .footer-main-container {
     display: flex;
+    justify-content: space-between;
     width: 77%;
     height: 34%;
   }
   
   .text-copy-footer {
     padding-top: 0.5%;
-    margin-left: 15%;
     width: 32%;
     color: #ffffff;
     font-weight: 200;
