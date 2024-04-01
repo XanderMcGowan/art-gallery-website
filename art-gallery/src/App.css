@@ -109,7 +109,7 @@ p {
 
 footer {
   width: 100%;
-  height: 9.5%;
+  height: 9.7%;
   background-color: #151515;
   display: flex;
   justify-content: center;
@@ -215,11 +215,11 @@ background-image: url(./assets/icon-twitter.svg);
 
 .text-copy-footer {
   padding-top: 0.5%;
-  margin-left: 14%;
+  margin-left: 15%;
   width: 32%;
   color: #ffffff;
   font-weight: 200;
-  font-size: 1vw;
+  font-size: 1.1vw;
   line-height: 160%;
 }
 
