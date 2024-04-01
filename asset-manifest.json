@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/art-gallery-website/static/css/main.38ea9e01.css",
+    "main.js": "/art-gallery-website/static/js/main.0c9949dd.js",
+    "static/js/453.7d537966.chunk.js": "/art-gallery-website/static/js/453.7d537966.chunk.js",
+    "static/media/image-grid-3@2x.jpg": "/art-gallery-website/static/media/image-grid-3@2x.8c20dafd7a6a577fc21a.jpg",
+    "static/media/image-grid-1.jpg": "/art-gallery-website/static/media/image-grid-1.d74fb64a2c7cb9aa307b.jpg",
+    "static/media/image-grid-2.jpg": "/art-gallery-website/static/media/image-grid-2.986f7799ed2a92d607ea.jpg",
+    "static/media/image-hero.jpg": "/art-gallery-website/static/media/image-hero.9880f6d0f520f841ba10.jpg",
+    "index.html": "/art-gallery-website/index.html",
+    "static/media/icon-instagram.svg": "/art-gallery-website/static/media/icon-instagram.3d353a344202f569874b.svg",
+    "static/media/icon-twitter.svg": "/art-gallery-website/static/media/icon-twitter.75e8a8eb7334e2cfcbfb.svg",
+    "static/media/icon-facebook.svg": "/art-gallery-website/static/media/icon-facebook.f709ece0570d170ced9d.svg",
+    "static/media/icon-arrow-right.svg": "/art-gallery-website/static/media/icon-arrow-right.a24cfbb84a44181bc4a7.svg",
+    "main.38ea9e01.css.map": "/art-gallery-website/static/css/main.38ea9e01.css.map",
+    "main.0c9949dd.js.map": "/art-gallery-website/static/js/main.0c9949dd.js.map",
+    "453.7d537966.chunk.js.map": "/art-gallery-website/static/js/453.7d537966.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38ea9e01.css",
+    "static/js/main.0c9949dd.js"
+  ]
+}
